@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Rest countries API",
+        "description": "A responsive, React application built with React Router that leverages the rest countries API to display information about countries, users can search country by name, filter by region and click into a country’s detail page to explore more information about it.",
+        "screenshot": "/my-portfolio/assets/images/countries-homepage.png",
+        "url": "https://cassiopeia001.github.io/rest-countries-api/",
+        "code": "https://github.com/cassiopeia001/rest-countries-api",
+        "level": "Advanced"
+
+    },
+    {
+        "title": "Product list with cart",
+        "description": "Built with React and styled using Tailwind CSS, this responsive and accessible application allows users to add and remove items from the cart, adjust quantities, and view an order confirmation modal upon placing an order.",
+        "screenshot": "/my-portfolio/assets/images/Products_list_with_cart_added_items.png",
+        "url": "https://cassiopeia001.github.io/products-list-with-cart/",
+        "code": "https://github.com/cassiopeia001/products-list-with-cart",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Multi-step form",
+        "description": "This project is a responsive multi-step form that imporives usability and focuses on accessibility by breaking a complex form into clear manageable steps. Users can complete each step of the sequence as well as receive validation messages, go back to previous steps to update selection and see a summary of their selection and confirm their order.",
+        "screenshot": "/my-portfolio/assets/images/Multi-step-form-persinfo.png",
+        "url": "https://cassiopeia001.github.io/multi-step-form/",
+        "code": "https://github.com/cassiopeia001/multi-step-form",
+        "level": "Advanced"
+    },
+    {
+        "title": "To-do app",
+        "description": "To-do app built with React where users can add, complete, delete, and filter tasks  (all, active, completed) with the option to clear completed items. Leveraging DnD-kit for smooth drag-and-drop reordering and a responsive dark-mode toggle for a modern user experience. ",
+        "screenshot": "/my-portfolio/assets/images/Todo-App.png",
+        "url": "https://cassiopeia001.github.io/todo-app/",
+        "code": "https://github.com/cassiopeia001/todo-app",
+        "level": "Intermediate"
+    }
+]
