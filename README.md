@@ -24,5 +24,5 @@ This portfolio includes:
 If you are interested in my work or would like to discuss opportunities, you can reach me at:  
 
 - **Email:** [minabelabbesnabi01@gmail.com]  
-- **Phone:** [0560569942]
-- **GitHub:** [@cassiopeia001]  
+- **Phone:** [0560569942] 
+- **Github:** [@cassiopeia001](https://github.com/cassiopeia001)
