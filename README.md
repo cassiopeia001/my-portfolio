@@ -1,12 +1,28 @@
-# React + Vite
+# 🌐 Mina Belabbes Nabi – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website where I showcase my **skills, projects, and background** as a **Front-end Engineer**.  
+The site highlights my ability to create **responsive, accessible, and user-friendly web applications** with clean design and smooth interactions.  
 
-Currently, two official plugins are available:
+## 👩‍💻 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I hold a **Master’s Degree in Software Engineering** and specialize in building modern, high-quality web applications.
 
-## Expanding the ESLint configuration
+## 📂 Portfolio
+This portfolio includes:  
+- Selected projects demonstrating my technical skills.
+- Responsive design and accessibility best practices.  
+- Clean UI design with smooth animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ ### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [Tailwind](https://tailwindcss.com/) - CSS framework 
+- [Vite](https://vite.dev/) - Build tool for the web 
+- [Motion](https://motion.dev/docs/react) - For smooth animations
+
+## 📬 Contact
+If you are interested in my work or would like to discuss opportunities, you can reach me at:  
+
+- **Email:** [minabelabbesnabi01@gmail.com]  
+- **Phone:** [0560569942]
+- **GitHub:** [@cassiopeia001]  
