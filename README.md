@@ -13,7 +13,7 @@ This portfolio includes:
 - Responsive design and accessibility best practices.  
 - Clean UI design with smooth animations.
 
-## 🛠️ ### Built with
+## 🛠️ Built with
 
 - [React](https://reactjs.org/) - JS library
 - [Tailwind](https://tailwindcss.com/) - CSS framework 
