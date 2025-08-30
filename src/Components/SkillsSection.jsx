@@ -4,8 +4,12 @@ import { SiTailwindcss, SiReactrouter, SiSass} from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import SkillCard from "./SkillCard";
 import {motion} from 'motion/react'
+import { useContext } from "react";
+import { ThemeContext } from "../Context/ThemeContext";
 
 export default function SkillsSection(){
+
+    const{darkMode}= useContext(ThemeContext)
 
     const skills= [
         {icon: FaHtml5, label: "HTML5"},
@@ -25,10 +29,10 @@ export default function SkillsSection(){
             whileInView={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}  className="flex flex-col gap-10 w-full">
-            <h2 className="font-raleway text-xl lg:text-2xl font-bold relative w-fit
-                after:content-[''] after:absolute after:left-0 after:-bottom-1
-                after:w-full after:h-[4px] after:bg-light-orange
-                after:shadow-[0_3px_4px_rgba(0,0,0,0.25)]">SKILLS</h2>
+            <h2 className={`font-raleway text-2xl lg:text-3xl font-extrabold 
+                bg-gradient-to-r  ${darkMode? "from-blue-400 to-blue-300  ":"from-blue to-indigo-500 "}  
+                bg-clip-text text-transparent relative w-fit
+                `}>Skills</h2>
             
             <div className="w-full flex justify-center items-center">
                 <ul className="max-w-xl grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 place-items-center gap-6 ">

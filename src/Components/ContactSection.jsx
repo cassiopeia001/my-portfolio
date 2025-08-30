@@ -2,7 +2,11 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt, FaGithub } from "react-icons/fa";
 import Contact from "./Contact";
 import {motion} from 'motion/react'
+import { useContext } from "react";
+import { ThemeContext } from "../Context/ThemeContext";
 export default function ContactSection (){
+
+    const {darkMode}= useContext(ThemeContext)
 
     const contactInfo = [
         {
@@ -33,11 +37,11 @@ export default function ContactSection (){
             whileInView={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }} id="contact" className="flex flex-col gap-10 lg:text-lg">
-             <h2 className="font-raleway text-xl lg:text-2xl font-bold relative w-fit
-                after:content-[''] after:absolute after:left-0 after:-bottom-1
-                after:w-full after:h-[4px] after:bg-light-orange
-                after:shadow-[0_3px_4px_rgba(0,0,0,0.25)]">CONTACT</h2>
-            <p>
+             <h2 className={`font-raleway text-2xl lg:text-3xl font-extrabold 
+                bg-gradient-to-r  ${darkMode? "from-blue-400 to-blue-300  ":"from-blue to-indigo-500 "} 
+                bg-clip-text text-transparent relative w-fit
+                `}>Contact</h2>
+            <p className="font-semibold">
                 I’m seeking opportunities to contribute to innovative projects and grow as a developer. Contact me to connect.
             </p>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2">

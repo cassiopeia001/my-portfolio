@@ -15,18 +15,13 @@ function App() {
 
   return (
 
-    <div className={` ${darkMode ? "bg-very-dark-blue text-beige": "bg-cream text-very-dark-blue"} min-h-screen w-full transition-colors duration-200 ease-out`}>
+    <div className={` ${darkMode ? "bg-gradient-to-l from-dark-blue to-very-dark-blue text-cream": "bg-gradient-to-br from-cream to-beige text-very-dark-blue"} min-h-screen w-full transition-colors duration-200 ease-out`}>
       <ThemeContext.Provider value={{darkMode, setDarkMode}}>
         <NavBar />
-        <main className='px-5 py-3 mt-16 flex flex-col gap-16 lg:px-16'>
-          <div className='flex justify-between gap-3'>
-            <div className='flex flex-col gap-10 xl:w-2/3'>
+        <main className='px-5 py-3 flex flex-col gap-16 lg:px-16 xl:px-24 h-full'>  
 
-            <HeroSection />
-            <AboutSection />
-            </div>
-            <img className='max-w-full xl:w-1/3 mt-8 h-auto object-contain  hidden xl:block' src="/my-portfolio/assets/images/coding-8.svg" alt="" />
-          </div>
+          <HeroSection />
+          <AboutSection />
           <SkillsSection />
           <ProjectsSection />
           <ContactSection />

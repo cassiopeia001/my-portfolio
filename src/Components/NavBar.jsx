@@ -10,8 +10,8 @@ export default function NavBar(){
     const {darkMode, setDarkMode}= useContext(ThemeContext);
     const [menuOpen, setMenuOpen]= useState(false)
     return (
-        <header className={`w-full px-5 py-3 shadow-md lg:px-16 ${darkMode ? "bg-dark-blue": "bg-beige"}`} >
-            <nav className="flex justify-between items-center text-lg">
+        <header className={`w-full px-5 py-3 shadow-md md:px-7 lg:px-16 xl:px-24 ${darkMode ? "bg-dark-blue": "bg-beige"}`} >
+            <nav className="flex justify-between items-center text-lg ">
                 {
                     darkMode ? (<img src="/my-portfolio/assets/images/monogram-light.png" className="w-16" alt="logo" />) : (<img src="/my-portfolio/assets/images/monogram-dark.png" className="w-16" alt="logo" />)
                 }

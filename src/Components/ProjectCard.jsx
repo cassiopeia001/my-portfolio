@@ -15,9 +15,9 @@ export default function ProjectCard ({project}){
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, ease: "easeOut" }}
         viewport={{ once: true }}
-        className={`border-[1px]  ${darkMode ? "bg-dark-blue border-beige": "bg-beige border-very-dark-blue"} rounded-lg font-nunito shadow-lg flex flex-col gap-4 p-4 max-w-sm `}>
+        className={`border-[1px]  ${darkMode ? "bg-dark-blue border-gray-700": "bg-beige border-[#CFC7B8]"} rounded-xl font-nunito shadow-lg flex flex-col gap-4 p-4 max-w-sm `}>
             
-            <img className={`rounded-lg border-1 ${darkMode ? "border-beige":"border-very-dark-blue"}`} src={project.screenshot} alt="Screenshot of Portfolio Website project" />
+            <img className={`rounded-xl border-1 ${darkMode ? "border-gray-700":"border-[#CFC7B8]"}`} src={project.screenshot} alt="Screenshot of Portfolio Website project" />
             
             <h3 className={` font-raleway text-lg lg:text-2xl font-extrabold ${darkMode? "text-light-blue": "text-blue"}`}>{project.title}</h3>
             <p>{project.description}</p>
