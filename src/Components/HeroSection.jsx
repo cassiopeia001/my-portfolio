@@ -19,7 +19,7 @@ export default function HeroSection (){
                 <h2 className={`text-3xl lg:text-4xl xl:text-5xl font-extrabold 
                     bg-gradient-to-r  ${darkMode? "from-blue-400 via-blue-500 to-blue-700":"from-blue via-indigo-500 to-light-blue"}
                     bg-clip-text text-transparent 
-                    leading-tight`}> Frontend Engineer</h2>
+                    leading-tight`}> Frontend Developer</h2>
                 <p className="text-lg lg:text-xl leading-relaxed ">
                     I bring designs to life, by building responsive and accessible web applications.</p>
 
@@ -28,6 +28,7 @@ export default function HeroSection (){
                     <a className="px-6 py-3 rounded-xl bg-blue text-white font-semibold shadow-md 
                     hover:shadow-lg hover:bg-[#162c63] transition cursor-pointer" 
                     download
+                    href="/my-portfolio/assets/Mina-Belabbes-Nabi-CV.pdf"
                     
                     >
                     Download CV
