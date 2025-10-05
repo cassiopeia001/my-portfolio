@@ -28,7 +28,7 @@ export default function HeroSection (){
                     <a className="px-6 py-3 rounded-xl bg-blue text-white font-semibold shadow-md 
                     hover:shadow-lg hover:bg-[#162c63] transition cursor-pointer" 
                     download
-                    href="/my-portfolio/assets/Mina-Belabbes-Nabi-CV.pdf"
+                    href="/my-portfolio/assets/Mina-Belabbes-Nabi-Resume.pdf"
                     
                     >
                     Download CV
