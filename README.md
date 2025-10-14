@@ -1,6 +1,6 @@
 # 🌐 Mina Belabbes Nabi – Portfolio
 
-This is my personal portfolio website where I showcase my **skills, projects, and background** as a **Front-end Engineer**.  
+This is my personal portfolio website where I showcase my **skills, projects, and background** as a **Full Stack Developer**.  
 The site highlights my ability to create **responsive, accessible, and user-friendly web applications** with clean design and smooth interactions.  
 
 ## 👩‍💻 About Me

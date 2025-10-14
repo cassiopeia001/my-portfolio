@@ -17,9 +17,9 @@ export default function AboutSection (){
                 `}>
                 About Me 
             </h2>
-            <p className="font-medium max-w-prose lg:text-lg xl:text-xl leading-loose">I have a degree in Software Engineering and am proficient in React and Javascript. 
+            <p className="font-medium max-w-prose lg:text-lg xl:text-xl leading-loose">I’m a Software Engineering graduate and frontend-focused developer skilled in React and Javascript. 
                 I specialize in translating designs into pixel-perfect, 
-                responsive and accessible websites that function seamlessly across devices.</p>    
+                responsive and accessible websites that function seamlessly across devices. Recently, I’ve been expanding my expertise into backend development, learning Node.js, Express, and RESTful APIs to build more complete, data-driven solutions.</p>    
             <div className="grid gap-6 md:grid-cols-2">
                 <div className={`p-4 rounded-xl border ${darkMode ?"bg-gray-800/50  border-gray-700":"bg-beige border-[#CFC7B8]"}  hover:border-blue-500 transition`}>
                     <p className="font-bold">Master’s Degree in 
