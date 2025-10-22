@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript, IoAccessibility } from "react-icons/io5";
-import { SiTailwindcss, SiReactrouter, SiSass, SiPostgresql, SiExpress} from "react-icons/si";
+import { SiTailwindcss, SiReactrouter, SiSass, SiPostgresql, SiExpress, SiVite } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import SkillCard from "./SkillCard";
 import {motion} from 'motion/react'
@@ -24,6 +24,7 @@ export default function SkillsSection(){
         {icon: SiPostgresql, label: "PostgreSQL"},
         {icon: IoAccessibility, label: "Accessibility"},
         {icon: FaGitAlt, label: "Git"},
+        {icon: SiVite, label: "Vite"},
         {icon: TbBrandFramerMotion, label: "Motion"}
     ]
     return(
