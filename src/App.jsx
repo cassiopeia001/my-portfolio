@@ -18,7 +18,7 @@ function App() {
     
     return stored === "dark";
   }
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  return window.matchMedia("(prefers-color-scheme: dark)").matches;
   });
   useEffect(() => {
     localStorage.setItem("theme", darkMode ? "dark" : "light");
@@ -26,7 +26,9 @@ function App() {
 
   return (
 
-    <div className={` ${darkMode ? "bg-gradient-to-l from-dark-blue to-very-dark-blue text-cream": "bg-gradient-to-br from-cream to-beige text-very-dark-blue"} min-h-[100dvh] w-full transition-colors duration-200 ease-out`}>
+    <div className={` ${darkMode
+      ? "bg-[#2D3B4D] bg-gradient-to-l from-[#2D3B4D] to-[#1F2937] text-[#FAF7F2]"
+      : "bg-[#FAF7F2] bg-gradient-to-br from-[#FAF7F2] to-[#F5EFE6] text-[#1F2937]"} min-h-[100dvh] w-full transition-colors duration-200 ease-out`}>
       <ThemeContext.Provider value={{darkMode, setDarkMode}}>
         <NavBar />
         <main className='px-5 py-3 flex flex-col gap-16 lg:px-16 xl:px-24 h-full'>  
