@@ -20,9 +20,3 @@ This portfolio includes:
 - [Vite](https://vite.dev/) - Build tool for the web 
 - [Motion](https://motion.dev/docs/react) - For smooth animations
 
-## 📬 Contact
-If you are interested in my work or would like to discuss opportunities, you can reach me at:  
-
-- **Email:** [minabelabbesnabi01@gmail.com]  
-- **Phone:** [0560569942] 
-- **Github:** [@cassiopeia001](https://github.com/cassiopeia001)
